@@ -83,8 +83,8 @@ def student_marksheet():
     s3 = float(input("Enter marks in Science: "))
     s4 = float(input("Enter marks in Computer: "))
 
-    total = s1 + s2 + s3 + s4
-    percentage = total / 4
+    sum = s1 + s2 + s3 + s4
+    percentage = sum / 4
 
     print("\nSTUDENT MARKSHEET")
     print("Student Name:", s_name)
@@ -92,8 +92,7 @@ def student_marksheet():
     print("Mathematics:", s2)
     print("Science:", s3)
     print("Computer:", s4)
-    print("Total Marks:", total)
+    print("Total Marks:", sum)
     print("Percentage:", percentage, "%")
 
-student_marksheet()         # Calling the function
-
+student_marksheet()
