@@ -93,7 +93,103 @@ for key,value in kwargs.items():
 
 #real world example
 
-def employee(**details):
-    for key, value in details.items():
-        print(key,"=", value)
-employee(Name="Aadi", Department="Developer", salary=500000, Country="Nepal")
+# def employee(**details):
+#     for key, value in details.items():
+#         print(key,"=", value)
+# employee(Name="Aadi", Department="Developer", salary=500000, Country="Nepal")
+
+
+# use *args when you need to accept an unknown number of positional value
+
+#use **kwargs when you need to accept an unknown number of named values eg. detail user information
+
+
+
+#lambda functions:
+# is a one line of function without a name. Anonymous short function
+
+
+# def square (x):           with function
+#     return x*x
+# print(square(5))
+
+
+
+#using lambda
+# square= lambda x:x*x
+# print(square(5))
+
+
+
+# multiply = lambda x,y:x*y
+# print(multiply(4,3))                        #only for sorting,filtering the function ,for one line only
+
+
+# def calculate_salary(hours, rate):              #can't use lambda here
+#     salary = hours*rate
+#     tax = salary*0.1
+#     final_salary = salary - tax
+#     return final_salary
+
+
+
+
+
+#sorting data
+
+
+
+
+# student= [
+#     ("Ram", 78),
+#     ("Hari", 92),
+#     ("Sita", 85)
+    
+# ]
+# student.sort(key= lambda student:student[1])
+# print(student)
+
+
+
+
+
+
+
+
+
+#lambda with map()              map-new iteration with same element | filter-conditional stmt
+
+# marks = [ 50, 60, 70, 80 ]
+
+
+#add bonus mark 5 to all
+
+# new_marks =[]
+# for mark in marks:
+#     new_marks.append(mark+5)                #for function
+# print (new_marks)
+
+
+
+# new_marks=list(map(lambda x:x+5, marks))    #for lambda
+# print(new_marks)
+
+
+
+
+#lambda with filter
+
+# passed= list(filter(lambda x:x>60, marks))
+# print(passed)
+
+
+
+
+from functools import reduce 
+numbers=[10,20,30,40]
+total = reduce(lambda x,y:x+y, numbers)
+print (total)
+
+
+# functools 
+# reduce-takes 2 values and returns sum
