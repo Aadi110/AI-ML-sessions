@@ -73,16 +73,30 @@ from math import pi                                     #specific function impor
 
 
 students={
-    "student1": {
-        "name":"Aaditya",
-        "class": "BIM",
+    "BITM":{
+        "student1": {
+             "name":"Aaditya",
+             "class": "BIM",
+                "marks":{
+                    "english":45, 
+                    "math":55, 
+                    "Nepali":65, 
+                    "Science":75
+                },
         
-        "english":45, 
-        "math":55, 
-        "Nepali":65, 
-        "Science":75
+        },
+        
+        "student2": {
+            "name":"Aman",
+            "class": "BIM",
+                "marks":{
+                    "english":45, 
+                    "math":55, 
+                    "Nepali":65, 
+                    "Science":75
+                },
         }
-    
+    }
     
 }
 # print(students["student1"]["name"])
@@ -96,3 +110,20 @@ print(students.get("student1").get("name"))
 
 
 
+'''
+write a python program to manage the records of 3 students using a nested dictionary 
+each student should have the following information:
+    -Name
+    -Age
+    -Faculty
+    -Marks in Finance
+    -Marks in computer
+The program should perform the following tasks:
+    1. create a nested dictionary for 3 students
+    2. display the details of all student
+    3. display the details of a specific student
+    4. update the finance marks to 95
+    5. calculate and display the total marks of each students
+    6. find and display the student who has the highest total marks
+
+'''
