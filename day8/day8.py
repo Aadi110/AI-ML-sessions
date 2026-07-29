@@ -95,13 +95,17 @@ print("printing row 1: ",arr2[:,1])
 #     [[1,2,3],[7,8,9]]              #layer2
 # ])            
 
+
+#indexing
+
 # # print(arr3)
 # # print("deminsion of 3d array: ",arr3.ndim)
 # # print("size of 3d array: ",arr3.size)
 # # print("shape of 3d array: ",arr3.shape)
 # # print("Datatype of 3d array: ",arr3.dtype)
 
-# #indexing or accessing arrays
+#slicing
+
 # print("1. ",arr3[:,1,1])              #(layer,row,column)
 # print("1.5. ",arr3[:2])
 # print("2. ",arr3[1:])
@@ -110,7 +114,7 @@ print("printing row 1: ",arr2[:,1])
 
 
 
-
+#indexing or accessing arrays
 # array.ndim-dimension
 # array.size-size
 # array.shape-shape
@@ -118,14 +122,44 @@ print("printing row 1: ",arr2[:,1])
 
 
 
-
+'''
 arr=np.array([
     [80,85,90],
     [75,88,92],
     [60,70,95]
 ])
 
-print("1. ",arr[:2])
-print("2. ",arr[1:])
-print("3. ",arr[:,:2])
-print("4. ",arr[:,1:])
+#slicing
+print("1. ",arr[:2])            #before 2
+print("2. ",arr[1:])            #row after 1
+print("3. ",arr[:,:2])          #column before 2
+print("4. ",arr[:,1:])          #column after 1
+'''
+
+
+
+
+
+
+arr3=np.array([
+    [[1,2,3],[4,5,6]],           #layer0              
+    [[7,8,9],[10,11,12]],        #layer1
+]) 
+
+#slicing
+print(arr3[0,:,:])              #layer 0 only row
+print(arr3[1,:,:])              #layer 1 only row
+print(arr3[:,0,:])              #layer 0 only column
+print(arr3[1,0,2])
+
+
+# print(arr3+10)
+# print(arr3*10)
+
+
+
+print(np.max(arr3))
+print(np.min(arr3))
+print(np.mean(arr3))
+print(np.sum(arr3))
+print(np.std(arr3))
