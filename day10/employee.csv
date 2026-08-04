@@ -1,0 +1,51 @@
+Name,Age,Address,Staff ID,Department,Phone Number,Designation,Salary,Provident Fund,Net Salary
+Sita Thapa,24,Butwal,EMP001,IT,9825776943,Software Engineer,51000,5100.0,45900.0
+Sita Bhandari,22,Chitwan,EMP002,Marketing,9895022811,Marketing Officer,49000,4900.0,44100.0
+Gita Lama,28,Chitwan,EMP003,Finance,9800382393,Accountant,76000,7600.0,68400.0
+Ram Sharma,57,Butwal,EMP004,IT,9869920705,Software Engineer,81000,8100.0,72900.0
+Hari Thapa,23,Chitwan,EMP005,Marketing,9860384709,Marketing Officer,51000,5100.0,45900.0
+Aarav KC,26,Biratnagar,EMP006,HR,9827589788,HR Officer,54000,5400.0,48600.0
+Puja Adhikari,50,Chitwan,EMP007,Marketing,9870699329,Marketing Officer,66000,6600.0,59400.0
+Sita Bhandari,34,Biratnagar,EMP008,Finance,9851289763,Accountant,38000,3800.0,34200.0
+Rohan Pangeni,44,Butwal,EMP009,Marketing,9849384465,Marketing Officer,77000,7700.0,69300.0
+Kiran Bhandari,44,Butwal,EMP010,Finance,9849467735,Accountant,42000,4200.0,37800.0
+Nabin Pangeni,27,Biratnagar,EMP011,Finance,9819391213,Accountant,62000,6200.0,55800.0
+Kiran Karki,57,Biratnagar,EMP012,IT,9846867417,Software Engineer,55000,5500.0,49500.0
+Sita Sharma,43,Kathmandu,EMP013,Finance,9898553622,Accountant,31000,3100.0,27900.0
+Gita Lama,36,Butwal,EMP014,Finance,9812962424,Accountant,83000,8300.0,74700.0
+Hari Lama,29,Butwal,EMP015,Marketing,9817079078,Marketing Officer,69000,6900.0,62100.0
+Puja Lama,35,Butwal,EMP016,Sales,9831478074,Sales Executive,49000,4900.0,44100.0
+Puja Adhikari,34,Pokhara,EMP017,Finance,9828588880,Accountant,40000,4000.0,36000.0
+Sita Adhikari,31,Biratnagar,EMP018,HR,9867899706,HR Officer,43000,4300.0,38700.0
+Kiran Bhandari,48,Kathmandu,EMP019,Marketing,9835059690,Marketing Officer,59000,5900.0,53100.0
+Nabin Sharma,30,Kathmandu,EMP020,Marketing,9877913941,Marketing Officer,81000,8100.0,72900.0
+Aarav Gurung,48,Pokhara,EMP021,Finance,9829553568,Accountant,90000,9000.0,81000.0
+Puja Rai,56,Pokhara,EMP022,IT,9887703968,Software Engineer,31000,3100.0,27900.0
+Puja Adhikari,31,Pokhara,EMP023,HR,9847406007,HR Officer,67000,6700.0,60300.0
+Aarav Bhandari,34,Pokhara,EMP024,Sales,9869592412,Sales Executive,58000,5800.0,52200.0
+Hari Lama,23,Butwal,EMP025,Marketing,9801505188,Marketing Officer,68000,6800.0,61200.0
+Nabin Thapa,23,Chitwan,EMP026,Sales,9823650634,Sales Executive,67000,6700.0,60300.0
+Asha Rai,30,Kathmandu,EMP027,Finance,9811072052,Accountant,90000,9000.0,81000.0
+Hari Pangeni,31,Chitwan,EMP028,IT,9804016654,Software Engineer,62000,6200.0,55800.0
+Kiran Rai,54,Chitwan,EMP029,IT,9837291762,Software Engineer,85000,8500.0,76500.0
+Nabin Karki,38,Kathmandu,EMP030,IT,9820507352,Software Engineer,31000,3100.0,27900.0
+Sita Bhandari,24,Kathmandu,EMP031,IT,9800096739,Software Engineer,84000,8400.0,75600.0
+Hari Gurung,36,Butwal,EMP032,Finance,9830870765,Accountant,68000,6800.0,61200.0
+Rohan Pangeni,55,Butwal,EMP033,Finance,9817556333,Accountant,36000,3600.0,32400.0
+Gita Pangeni,54,Butwal,EMP034,IT,9892429680,Software Engineer,43000,4300.0,38700.0
+Rohan Thapa,32,Pokhara,EMP035,HR,9852357795,HR Officer,71000,7100.0,63900.0
+Aarav Rai,26,Biratnagar,EMP036,Marketing,9817093350,Marketing Officer,86000,8600.0,77400.0
+Hari Thapa,52,Pokhara,EMP037,HR,9803705438,HR Officer,69000,6900.0,62100.0
+Puja Pangeni,33,Biratnagar,EMP038,IT,9872570774,Software Engineer,42000,4200.0,37800.0
+Aarav Karki,34,Butwal,EMP039,IT,9871460190,Software Engineer,89000,8900.0,80100.0
+Asha Rai,43,Butwal,EMP040,IT,9846765423,Software Engineer,42000,4200.0,37800.0
+Asha Thapa,43,Butwal,EMP041,IT,9807125379,Software Engineer,83000,8300.0,74700.0
+Hari Pangeni,37,Biratnagar,EMP042,HR,9820864821,HR Officer,83000,8300.0,74700.0
+Gita Thapa,51,Kathmandu,EMP043,IT,9821062263,Software Engineer,89000,8900.0,80100.0
+Puja Sharma,35,Chitwan,EMP044,Sales,9879423655,Sales Executive,41000,4100.0,36900.0
+Hari Pangeni,53,Biratnagar,EMP045,IT,9815437227,Software Engineer,81000,8100.0,72900.0
+Gita Bhandari,40,Pokhara,EMP046,Sales,9895459617,Sales Executive,34000,3400.0,30600.0
+Puja Thapa,22,Butwal,EMP047,Sales,9879954905,Sales Executive,90000,9000.0,81000.0
+Rohan Thapa,56,Chitwan,EMP048,Sales,9831034916,Sales Executive,45000,4500.0,40500.0
+Aarav KC,49,Pokhara,EMP049,IT,9856090141,Software Engineer,66000,6600.0,59400.0
+Aarav Rai,23,Biratnagar,EMP050,HR,9810353368,HR Officer,44000,4400.0,39600.0
