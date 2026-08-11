@@ -48,7 +48,7 @@ df= pd.DataFrame(data)
 #now split
 
 X= df[["Hours", "Attendance"]]
-y= df[["Result"]]
+y = df["Result"]
 
 # print(x,y)
 
@@ -79,8 +79,76 @@ prediction = model.predict(new_student)
 print("Prediction", prediction[0])
 
 
-#plot decision tree
+# Train a decision tree separately for visualization.
+tree_model = DecisionTreeClassifier(random_state=42)
+tree_model.fit(X_train, y_train)
+
+# Plot the decision tree.
 plt.figure(figsize=(12, 8))
 
-plot_tree(model,features_names=X.columns, class_names=model.classes_, filled=True)
+plot_tree(tree_model, feature_names=X.columns, class_names=tree_model.classes_, filled=True)
 plt.show()
+
+
+
+# import pandas as pd
+# from sklearn.model_selection import train_test_split
+# from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.metrics import accuracy_score
+# from sklearn.preprocessing import StandardScaler
+
+# data = {
+#     "Hours": [1,2,2,3,3,4,4,5,5,6,6,7,9,9,10],
+#     "Attendance": [50,55,60,60,65,65,70,70,75,75,80,80,85,90,95],
+#     "Result": [
+#         "Fail", "Fail", "Fail", "Fail", "Fail",
+#         "Pass", "Pass", "Pass", "Pass", "Pass",
+#         "Pass", "Pass", "Pass", "Pass", "Pass"
+#     ]
+# }
+
+# df = pd.DataFrame(data)
+
+# # Split input and output
+# X = df[["Hours", "Attendance"]]
+# y = df["Result"]
+
+# # Train-test split
+# X_train, X_test, y_train, y_test = train_test_split(
+#     X, y, test_size=0.2, random_state=42
+# )
+
+# # Standard Scaling
+# scaler = StandardScaler()
+
+# X_train_scaled = scaler.fit_transform(X_train)
+# X_test_scaled = scaler.transform(X_test)
+
+# # Select KNN model
+# model = KNeighborsClassifier(n_neighbors=3)
+
+# # Train
+# model.fit(X_train_scaled, y_train)
+
+# # Predict
+# y_pred = model.predict(X_test_scaled)
+
+# print("Predicted:", y_pred)
+
+# # Check accuracy
+# accuracy = accuracy_score(y_test, y_pred)
+# print("Accuracy:", accuracy)
+
+# # New student data
+# new_student = pd.DataFrame(
+#     [[5, 72]],
+#     columns=X.columns
+# )
+
+# # Scale new student using the SAME scaler
+# new_student_scaled = scaler.transform(new_student)
+
+# # Predict new student
+# prediction = model.predict(new_student_scaled)
+
+# print("Prediction:", prediction[0])
