@@ -35,3 +35,4 @@ while True:
 
     response = chat(user_input)
     print(f"Gemini: {response}\n")
+    
